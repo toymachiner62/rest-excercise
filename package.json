@@ -1,0 +1,22 @@
+{
+  "name": "rest-excercise",
+  "version": "1.0.0",
+  "description": "Tom Caflisch coding excercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npx mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.2",
+    "supertest": "^4.0.2"
+  }
+}
